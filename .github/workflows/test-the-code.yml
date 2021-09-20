@@ -1,11 +1,17 @@
-name: test-the-code
+name: Running the tests
+
 on:
+  push:
+    branches: [ main ]
   pull_request:
     branches: [ main ]
+
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Test against the unit test
-        run: |
-          python test.py
+    - name: Test with unittest
+      run: |
+        python test.py
