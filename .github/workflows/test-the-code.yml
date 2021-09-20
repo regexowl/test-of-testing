@@ -1,0 +1,10 @@
+name: test-the-code
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test against the unit test
+      - uses: python test.py
