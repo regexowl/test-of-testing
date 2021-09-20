@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test against the unit test
-      - run: python test.py
+        run: python test.py
