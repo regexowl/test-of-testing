@@ -1,4 +1,4 @@
-# test-of-testing
+# Setup simple CI
 
 A simple project that uses pytest and GitHub Actions to automatically run a short series of tests on push or pull request.
 
